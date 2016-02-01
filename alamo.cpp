@@ -110,7 +110,7 @@ void getSurvey(int sleep1, int sleep2, int fastSleep)
 		if (badInput == true)
 			gayInput(rate, sleep1, sleep2, fastSleep);
 	} while (badInput == true);
-	string text2 = "\nThank you for enjoying your alamo experience ", text3 = "\Thank you for being a total fucking asshole ";
+	string text2 = "\nThank you for enjoying your alamo experience ", text3 = "\nThank you for being a total fucking asshole ";
 	for (int i = 0; i < text2.length(); i++)
 	{
 		if (stoi(rate) > 6)
