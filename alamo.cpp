@@ -72,9 +72,9 @@ void getSurvey(string & tempOutput)
 
 void main()
 {
-	string fag, tempOutput;
+	string tempOutput;
 	giveAlamoInfo(tempOutput);
 	getSurvey(tempOutput);
-	getline(cin, fag);
+	getline(cin, tempOutput);
 	cout << endl;
 }
